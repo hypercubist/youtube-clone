@@ -1,0 +1,22 @@
+{
+  "name": "youtube-clone",
+  "version": "1.0.0",
+  "description": "Cloning youtube",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hypercubist/youtube-clone.git"
+  },
+  "author": "hypercubist",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hypercubist/youtube-clone/issues"
+  },
+  "homepage": "https://github.com/hypercubist/youtube-clone#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
