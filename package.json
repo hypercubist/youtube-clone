@@ -2,7 +2,6 @@
   "name": "youtube-clone",
   "version": "1.0.0",
   "description": "Cloning youtube",
-  "main": "index.js",
   "scripts": {
     "start": "nodemon --exec babel-node init.js --delay 2",
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -25,7 +24,8 @@
     "cookie-parser": "^1.4.4",
     "express": "^4.17.1",
     "helmet": "^3.21.3",
-    "morgan": "^1.9.1"
+    "morgan": "^1.9.1",
+    "pug": "^3.0.0"
   },
   "devDependencies": {
     "nodemon": "^2.0.2"

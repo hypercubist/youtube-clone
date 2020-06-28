@@ -10,6 +10,8 @@ import routes from "./routes.js";
 
 const app = express();
 
+app.set("view engine", "pug");
+
 app.use(helmet());
 app.use(cookieParser());
 app.use(bodyParser.json());
@@ -18,6 +20,6 @@ app.use(morgan("dev"));
 
 app.use(routes.home, globalRouter);
 app.use(routes.users, userRouter);
-app.use(routes.video, videoRouter);
+app.use(routes.videos, videoRouter);
 
 export default app;
